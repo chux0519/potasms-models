@@ -34,13 +34,19 @@ def semantic(work,archive=None):
  if json.loads((target/'manifest.json').read_text())!=spec['manifest']:raise ValueError('Semantic manifest differs')
  return target
 
-def models(work):
+def models(work,cache=None):
  from huggingface_hub import hf_hub_download
  work=Path(work);pins=json.loads((ROOT/'manifests/pretrained-models.json').read_text())
  for name,spec in pins.items():
   target=work/'models'/name;target.mkdir(parents=True,exist_ok=True)
   for filename,record in spec['files'].items():
-   path=Path(hf_hub_download(spec['repo'],filename,revision=spec['revision'],local_dir=str(target),cache_dir=str(work/'cache/huggingface'),token=False))
+   path=target/filename
+   cached=Path(cache)/name/filename if cache else None
+   if not path.exists() and cached is not None and cached.is_file():
+    if digest(cached)!=record['sha256']:raise ValueError('Untrusted pretrained cache hash mismatch')
+    import shutil
+    shutil.copy2(cached,path)
+   if not path.exists():path=Path(hf_hub_download(spec['repo'],filename,revision=spec['revision'],local_dir=str(target),cache_dir=str(work/'cache/huggingface'),token=False))
    if path.stat().st_size!=record['bytes'] or digest(path)!=record['sha256']:raise ValueError('Pretrained source hash mismatch')
   (target/'source-manifest.json').write_text(json.dumps(spec,indent=2)+'\n')
  return work/'models'
