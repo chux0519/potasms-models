@@ -427,7 +427,8 @@
     "source": "registry+https://github.com/rust-lang/crates.io-index",
     "repository": "https://github.com/rust-onig/rust-onig",
     "license_files": [
-      "LICENSE.md"
+      "LICENSE.md",
+      "oniguruma/COPYING"
     ]
   },
   {
@@ -515,6 +516,7 @@
     "repository": "https://github.com/rust-random/rand",
     "license_files": [
       "LICENSE-APACHE",
+      "COPYRIGHT",
       "LICENSE-MIT"
     ]
   },
@@ -526,6 +528,7 @@
     "repository": "https://github.com/rust-random/rand",
     "license_files": [
       "LICENSE-APACHE",
+      "COPYRIGHT",
       "LICENSE-MIT"
     ]
   },
@@ -537,6 +540,7 @@
     "repository": "https://github.com/rust-random/rand",
     "license_files": [
       "LICENSE-APACHE",
+      "COPYRIGHT",
       "LICENSE-MIT"
     ]
   },
@@ -603,7 +607,8 @@
     "repository": "https://github.com/rust-lang/regex",
     "license_files": [
       "LICENSE-APACHE",
-      "LICENSE-MIT"
+      "LICENSE-MIT",
+      "src/unicode_tables/LICENSE-UNICODE"
     ]
   },
   {
@@ -807,6 +812,7 @@
     "repository": "https://github.com/n1t0/unicode-normalization",
     "license_files": [
       "LICENSE-APACHE",
+      "COPYRIGHT",
       "LICENSE-MIT"
     ]
   },
@@ -818,6 +824,7 @@
     "repository": "https://github.com/unicode-rs/unicode-segmentation",
     "license_files": [
       "LICENSE-APACHE",
+      "COPYRIGHT",
       "LICENSE-MIT"
     ]
   },
@@ -829,6 +836,7 @@
     "repository": "https://github.com/unicode-rs/unicode-width",
     "license_files": [
       "LICENSE-APACHE",
+      "COPYRIGHT",
       "LICENSE-MIT"
     ]
   },

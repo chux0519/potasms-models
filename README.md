@@ -23,6 +23,8 @@ memory. Native export/evaluation and deployed inference use CPU only.
 python -m venv .venv
 . .venv/bin/activate
 pip install -e '.[train,test]'
+# For the exact Linux/Python3.10 reference stack, also use:
+# pip install -r requirements/reference-linux-py310.txt
 potasms-models --work work/benchmark-v1 prepare
 potasms-models --work work/benchmark-v1 fetch-models
 potasms-models --work work/benchmark-v1 train-character
