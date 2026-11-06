@@ -14,6 +14,25 @@ std::string normalized(std::string s,int mode) {
 }
 int main() {
     {
+        pota_feature signedFeatures[]={{0,.6f},{1,-.8f}};
+        float head[]={1,2},delta[]={0,0},score=0;
+        CHECK(pota_float_logit(signedFeatures,2,head,2,.1f,nullptr,0,&score)==POTA_OK);
+        CHECK(std::abs(score+.9f)<1e-6);
+        int8_t legacyHead[]={1,2};
+        CHECK(pota_logit(signedFeatures,2,legacyHead,2,1,0,nullptr,0,&score)==POTA_INVALID);
+        CHECK(pota_pa2_margin_sample(signedFeatures,2,delta,2,-.2f,1,1,.05f,2)==POTA_OK);
+        CHECK(std::abs(delta[0]-.1f)<1e-6 && std::abs(delta[1]+.133333333f)<1e-6);
+        CHECK(pota_float_logit(signedFeatures,2,nullptr,2,0,delta,0,&score)==POTA_OK);
+        CHECK(score>0); // signed features must improve the supplied negative margin
+        const float before[]={delta[0],delta[1]};
+        signedFeatures[1].bucket=0;
+        CHECK(pota_pa2_margin_sample(signedFeatures,2,delta,2,-.2f,1,1,.05f,2)==POTA_INVALID);
+        CHECK(delta[0]==before[0] && delta[1]==before[1]);
+        signedFeatures[1].bucket=1;
+        CHECK(pota_pa2_margin_sample(signedFeatures,2,delta,2,1001,1,1,.05f,2)==POTA_INVALID);
+        CHECK(delta[0]==before[0] && delta[1]==before[1]);
+    }
+    {
         pota_feature features[]={{1,.6f},{3,.8f}};
         int8_t weights[4]={0,0,0,0};float delta[4]={0,0,0,0};
         CHECK(pota_pa2_sample(features,2,weights,4,1,0,delta,0,0,1,1,.05f,2)==POTA_OK);

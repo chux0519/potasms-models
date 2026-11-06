@@ -51,6 +51,18 @@ int pota_logit(const pota_feature *features, size_t count,
                const int8_t *weights, size_t buckets, float scale, float bias,
                const float *aligned_delta, float bias_delta, float *output);
 float pota_sigmoid(float logit);
+/* Signed, sorted, L2-unit embedding features (1..4096 dimensions). Unlike the
+ * character API this accepts negative coordinates. Float weights may be NULL
+ * to compute only a personal delta; aligned_delta has one entry per feature. */
+int pota_float_logit(const pota_feature *features, size_t count,
+                     const float *weights, size_t dimensions, float bias,
+                     const float *aligned_delta, float bias_delta, float *output);
+/* PA-II in an explicit calibrated decision-margin domain. The base margin is
+ * fixed by the caller; only dense_delta is updated, never the head or bias. */
+int pota_pa2_margin_sample(const pota_feature *features, size_t count,
+                           float *dense_delta, size_t dimensions, float base_margin,
+                           uint8_t label, float aggressiveness, float margin,
+                           float maximum_delta);
 /* One bounded SGD update; dense_delta has buckets entries. All inputs are
  * validated before mutation. Callers own replay order, acceptance and rollback. */
 int pota_sgd_sample(const pota_feature *features, size_t count,

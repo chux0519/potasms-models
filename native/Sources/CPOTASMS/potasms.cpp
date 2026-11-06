@@ -122,6 +122,16 @@ bool valid_model(const int8_t *w, size_t n, float scale, float bias, float delta
     return w && n && n <= kMaxBuckets && std::isfinite(scale) && scale > 0 && scale <= 100 &&
         std::isfinite(bias) && std::abs(bias) <= 1000 && std::isfinite(delta_bias) && std::abs(delta_bias) <= 16;
 }
+bool valid_embedding_features(const pota_feature *f,size_t n,size_t dimensions) {
+    if (!f || !n || !dimensions || dimensions>4096 || n>dimensions) return false;
+    double squared=0;
+    for (size_t i=0;i<n;++i) {
+        if (f[i].bucket>=dimensions || !std::isfinite(f[i].value) ||
+            std::abs(f[i].value)>1 || (i && f[i-1].bucket>=f[i].bucket)) return false;
+        squared+=static_cast<double>(f[i].value)*f[i].value;
+    }
+    return std::abs(squared-1)<=1e-5;
+}
 }
 
 extern "C" {
@@ -172,6 +182,46 @@ int pota_logit(const pota_feature *f, size_t n, const int8_t *w, size_t buckets,
     }
     if (!std::isfinite(value)) return POTA_INVALID;
     *out=value; return POTA_OK;
+}
+int pota_float_logit(const pota_feature *f,size_t n,const float *w,size_t dimensions,
+                     float bias,const float *delta,float db,float *out) {
+    if (!out) return POTA_INVALID;
+    *out=0;
+    if (!valid_embedding_features(f,n,dimensions) || !std::isfinite(bias) ||
+        std::abs(bias)>1000 || !std::isfinite(db) || std::abs(db)>16) return POTA_INVALID;
+    if (w) for (size_t i=0;i<dimensions;++i)
+        if (!std::isfinite(w[i]) || std::abs(w[i])>1000) return POTA_INVALID;
+    float value=bias+db;
+    for (size_t i=0;i<n;++i) {
+        const float d=delta?delta[i]:0;
+        if (!std::isfinite(d) || std::abs(d)>16) return POTA_INVALID;
+        value+=f[i].value*((w?w[f[i].bucket]:0)+d);
+    }
+    if (!std::isfinite(value)) return POTA_INVALID;
+    *out=value;return POTA_OK;
+}
+int pota_pa2_margin_sample(const pota_feature *f,size_t n,float *delta,size_t dimensions,
+                           float base,uint8_t label,float c,float margin,float limit) {
+    if (!delta || label>1 || !valid_embedding_features(f,n,dimensions) ||
+        !std::isfinite(base) || std::abs(base)>1000 || !std::isfinite(c) || c<=0 || c>1000 ||
+        !std::isfinite(margin) || margin<=0 || margin>10 ||
+        !std::isfinite(limit) || limit<=0 || limit>16) return POTA_INVALID;
+    float z=base;double norm=0;
+    for (size_t i=0;i<n;++i) {
+        const float d=delta[f[i].bucket];
+        if (!std::isfinite(d) || std::abs(d)>16) return POTA_INVALID;
+        z+=f[i].value*d;norm+=static_cast<double>(f[i].value)*f[i].value;
+    }
+    if (!std::isfinite(z)) return POTA_INVALID;
+    const float sign=label?1.0f:-1.0f;
+    const float tau=std::max(0.0f,margin-sign*z)/(static_cast<float>(norm)+1.0f/(2*c));
+    if (!std::isfinite(tau)) return POTA_INVALID;
+    for (size_t i=0;i<n;++i)
+        if (!std::isfinite(delta[f[i].bucket]+tau*sign*f[i].value)) return POTA_INVALID;
+    for (size_t i=0;i<n;++i) {
+        auto &d=delta[f[i].bucket];d=std::max(-limit,std::min(limit,d+tau*sign*f[i].value));
+    }
+    return POTA_OK;
 }
 int pota_anchor_sample(const pota_feature *f,size_t n,float *delta,size_t buckets,float rate) {
     if (!delta || !n || !valid_features(f,n,buckets) || !std::isfinite(rate) || rate<=0 || rate>1)

@@ -2,6 +2,13 @@
 import ctypes as C,os
 import numpy as np
 
+def logits(x,weights,bias):
+ from . import native
+ lib=native.library();lib.pota_float_logit.argtypes=[C.POINTER(native.Feature),C.c_size_t,C.POINTER(C.c_float),C.c_size_t,C.c_float,C.POINTER(C.c_float),C.c_float,C.POINTER(C.c_float)];w=np.ascontiguousarray(weights,np.float32);out=[]
+ for row in x:
+  f=(native.Feature*len(row))(*(native.Feature(i,v) for i,v in enumerate(row)));value=C.c_float();native.check(lib.pota_float_logit(f,len(row),w.ctypes.data_as(C.POINTER(C.c_float)),len(w),float(bias),None,0.,C.byref(value)));out.append(value.value)
+ return np.asarray(out,dtype=float)
+
 class Encoder:
  def __init__(self,library,model):
   os.environ['EMBEDDINGS_CPP_BACKEND']='cpu';os.environ['EMBEDDINGS_CPP_THREADS']='4';os.environ['EMBEDDINGS_CPP_CPU_REPACK']='0';os.environ['EMBEDDINGS_CPP_BERT_FLASH_ATTN']='0'
