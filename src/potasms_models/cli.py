@@ -8,6 +8,7 @@ def main():
  sub=p.add_subparsers(dest='command',required=True)
  prep=sub.add_parser('prepare');prep.add_argument('--semantic-archive',type=Path)
  fetch=sub.add_parser('fetch-models');fetch.add_argument('--model-cache',type=Path)
+ runtime=sub.add_parser('build-runtime');runtime.add_argument('--runtime-archive',type=Path);runtime.add_argument('--offline',action='store_true')
  sub.add_parser('train-character');sub.add_parser('train-student');sub.add_parser('doctor')
  a=p.parse_args();work=a.work.resolve();os.environ['POTASMS_WORK']=str(work)
  from .bootstrap import build_native,semantic,models
@@ -16,6 +17,9 @@ def main():
   from .data import prepare
   print(prepare(work));print(semantic(work,a.semantic_archive))
  elif a.command=='fetch-models':print(models(work,a.model_cache))
+ elif a.command=='build-runtime':
+  from .runtime import build
+  print(json.dumps(build(work,a.runtime_archive,a.offline),indent=2))
  elif a.command=='train-character':
   from .character import train
   print(json.dumps(train(work),indent=2))
