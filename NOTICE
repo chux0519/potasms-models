@@ -1,0 +1,8 @@
+POTASMS Models
+Copyright 2026 Potafree, LLC.
+
+First-party code is Apache-2.0. Data, pretrained weights and vendored components
+retain their own licenses; consult licenses/ and per-run provenance.
+Vendored utf8proc and PCRE2 notices are retained in native/Sources/.
+No private SMS, imports, feedback, personal weights or account credentials
+are included in this repository or permitted inputs to shared base recipes.

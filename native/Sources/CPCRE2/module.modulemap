@@ -1,0 +1,1 @@
+module CPCRE2 { header "potasms_pcre2.h" export * }

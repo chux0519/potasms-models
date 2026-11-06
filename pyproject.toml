@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "potasms-models"
+version = "0.1.0"
+description = "Publicly reproducible SMS filtering baselines and a portable model contract"
+requires-python = ">=3.10,<3.14"
+license = "Apache-2.0"
+dependencies = ["numpy==2.2.6", "scipy==1.15.3", "scikit-learn==1.7.2", "requests==2.34.2"]
+
+[project.optional-dependencies]
+train = ["torch==2.8.0", "transformers==4.56.2", "tokenizers==0.22.2", "safetensors==0.6.2", "huggingface-hub==0.35.3", "gguf==0.17.1"]
+test = ["pytest==8.4.2"]
+
+[project.scripts]
+potasms-models = "potasms_models.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

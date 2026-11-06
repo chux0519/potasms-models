@@ -1,0 +1,10 @@
+{
+  "url": "https://raw.githubusercontent.com/unicode-org/icu/release-72-1/icu4c/source/data/unidata/DerivedCoreProperties.txt",
+  "sha256": "5aecf2bf009080ca91a3f30983c14021f827692fb1e2d708c81474a72a0e8d36",
+  "unicode": "15.0.0",
+  "properties": [
+    "Cased",
+    "Case_Ignorable"
+  ],
+  "license": "../CUtf8Proc/LICENSE.md (Unicode data license)"
+}

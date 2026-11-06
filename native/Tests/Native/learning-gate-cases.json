@@ -1,0 +1,85 @@
+{
+  "provenance": "Original synthetic regression cases; no personal SMS.",
+  "cases": [
+    {
+      "name": "loss-only-official-base",
+      "base": "official",
+      "expected": "unchanged",
+      "rows": [
+        [
+          "Your verification code is 519307. Use it only in the app you opened.",
+          false
+        ],
+        [
+          "We received your tax documents. Your accountant will call on Tuesday.",
+          false
+        ],
+        [
+          "Road charge unpaid. Resolve the balance at road-settle.example before midnight.",
+          true
+        ],
+        [
+          "We pay for product ratings. Add funds to your work account to receive tasks.",
+          true
+        ]
+      ]
+    },
+    {
+      "name": "genuine-balanced-correction",
+      "base": "zero1024",
+      "expected": "accepted",
+      "rows": [
+        [
+          "family dinner tonight",
+          false
+        ],
+        [
+          "family dinner tomorrow",
+          false
+        ],
+        [
+          "claim cash now",
+          true
+        ],
+        [
+          "claim cash today",
+          true
+        ]
+      ]
+    },
+    {
+      "name": "calibration-improvement-cannot-mask-lost-junk",
+      "base": "zero1024",
+      "expected": "unchanged",
+      "referenceRegression": true,
+      "rows": [
+        [
+          "family dinner tonight",
+          false
+        ],
+        [
+          "family dinner tomorrow",
+          false
+        ],
+        [
+          "claim cash now",
+          true
+        ],
+        [
+          "claim cash today",
+          true
+        ]
+      ],
+      "validation": [
+        [
+          "family dinner with us",
+          false
+        ],
+        [
+          "family dinner at home",
+          true
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "provenance": "Original synthetic rule-matching cases, November4; no personal SMS.",
+  "cases": [
+    {
+      "name": "formatting-equivalence",
+      "rule": {
+        "id": "formatting-equivalence",
+        "name": "formatting-equivalence",
+        "pattern": "Pay now 4501",
+        "kind": "normalizedExact",
+        "target": "body",
+        "action": "junk",
+        "enabled": true,
+        "caseSensitive": false
+      },
+      "body": "  ＰＡＹ  now\n4501  ",
+      "matched": true
+    },
+    {
+      "name": "strict-exact-unchanged",
+      "rule": {
+        "id": "strict-exact-unchanged",
+        "name": "strict-exact-unchanged",
+        "pattern": "Pay now 4501",
+        "kind": "exact",
+        "target": "body",
+        "action": "junk",
+        "enabled": true,
+        "caseSensitive": false
+      },
+      "body": "Pay  now\n4501",
+      "matched": false
+    },
+    {
+      "name": "changed-number",
+      "rule": {
+        "id": "changed-number",
+        "name": "changed-number",
+        "pattern": "Pay now 4501",
+        "kind": "normalizedExact",
+        "target": "body",
+        "action": "junk",
+        "enabled": true,
+        "caseSensitive": false
+      },
+      "body": "Pay now 4502",
+      "matched": false
+    },
+    {
+      "name": "changed-words",
+      "rule": {
+        "id": "changed-words",
+        "name": "changed-words",
+        "pattern": "Pay now 4501",
+        "kind": "normalizedExact",
+        "target": "body",
+        "action": "junk",
+        "enabled": true,
+        "caseSensitive": false
+      },
+      "body": "Do not pay now 4501",
+      "matched": false
+    },
+    {
+      "name": "case-sensitive-respected",
+      "rule": {
+        "id": "case-sensitive-respected",
+        "name": "case-sensitive-respected",
+        "pattern": "Pay now 4501",
+        "kind": "normalizedExact",
+        "target": "body",
+        "action": "junk",
+        "enabled": true,
+        "caseSensitive": true
+      },
+      "body": "PAY now 4501",
+      "matched": false
+    },
+    {
+      "name": "zero-width-compatibility",
+      "rule": {
+        "id": "zero-width-compatibility",
+        "name": "zero-width-compatibility",
+        "pattern": "Pay now 4501",
+        "kind": "normalizedExact",
+        "target": "body",
+        "action": "junk",
+        "enabled": true,
+        "caseSensitive": false
+      },
+      "body": "Pay​ now 4501",
+      "matched": true
+    }
+  ]
+}
