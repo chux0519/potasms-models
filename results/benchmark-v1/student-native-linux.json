@@ -1,0 +1,425 @@
+{
+  "f32": {
+    "panels": {
+      "background": {
+        "n": 768,
+        "normal": 384,
+        "junk": 384,
+        "fp": 21,
+        "tp": 327,
+        "tn": 363,
+        "fn": 57,
+        "accuracy": 0.8984375,
+        "recall": 0.8515625,
+        "fpr": 0.0546875,
+        "threshold": 3.8137168142556335,
+        "threshold_domain": "logit",
+        "roc_auc": 0.981167263454861,
+        "pr_auc": 0.9814407830656366
+      },
+      "old-cohort": {
+        "n": 2084,
+        "normal": 452,
+        "junk": 1632,
+        "fp": 10,
+        "tp": 1373,
+        "tn": 442,
+        "fn": 259,
+        "accuracy": 0.8709213051823417,
+        "recall": 0.8412990196078431,
+        "fpr": 0.022123893805309734,
+        "threshold": 3.8137168142556335,
+        "threshold_domain": "logit",
+        "roc_auc": 0.9787152416276245,
+        "pr_auc": 0.9941751095998941
+      },
+      "old-language": {
+        "n": 185,
+        "normal": 72,
+        "junk": 113,
+        "fp": 10,
+        "tp": 85,
+        "tn": 62,
+        "fn": 28,
+        "accuracy": 0.7945945945945946,
+        "recall": 0.7522123893805309,
+        "fpr": 0.1388888888888889,
+        "threshold": 3.8137168142556335,
+        "threshold_domain": "logit",
+        "roc_auc": 0.862094395280236,
+        "pr_auc": 0.9136819255542792
+      },
+      "background-en": {
+        "n": 256,
+        "normal": 128,
+        "junk": 128,
+        "fp": 4,
+        "tp": 113,
+        "tn": 124,
+        "fn": 15,
+        "accuracy": 0.92578125,
+        "recall": 0.8828125,
+        "fpr": 0.03125,
+        "threshold": 3.8137168142556335,
+        "threshold_domain": "logit",
+        "roc_auc": 0.98834228515625,
+        "pr_auc": 0.9864649870932458
+      },
+      "background-zh": {
+        "n": 256,
+        "normal": 128,
+        "junk": 128,
+        "fp": 9,
+        "tp": 108,
+        "tn": 119,
+        "fn": 20,
+        "accuracy": 0.88671875,
+        "recall": 0.84375,
+        "fpr": 0.0703125,
+        "threshold": 3.8137168142556335,
+        "threshold_domain": "logit",
+        "roc_auc": 0.98095703125,
+        "pr_auc": 0.9822325818968567
+      },
+      "background-mixed": {
+        "n": 256,
+        "normal": 128,
+        "junk": 128,
+        "fp": 8,
+        "tp": 106,
+        "tn": 120,
+        "fn": 22,
+        "accuracy": 0.8828125,
+        "recall": 0.828125,
+        "fpr": 0.0625,
+        "threshold": 3.8137168142556335,
+        "threshold_domain": "logit",
+        "roc_auc": 0.970458984375,
+        "pr_auc": 0.9717723262434921
+      }
+    },
+    "calibration": {
+      "center": 0.16315406713207872,
+      "scale": 3.4097154567853742,
+      "log_slope": 2.2198732103937457,
+      "intercept": -0.7544957406487441,
+      "only_calibration": true,
+      "domain": "full finite logits, positive affine Platt scaling"
+    },
+    "point": {
+      "threshold": 3.8137168142556335,
+      "domain": "finite continuous score/logit",
+      "panels": {
+        "en": {
+          "normal": 128,
+          "junk": 128,
+          "fp": 0,
+          "tp": 84
+        },
+        "zh": {
+          "normal": 128,
+          "junk": 128,
+          "fp": 0,
+          "tp": 115
+        },
+        "mixed": {
+          "normal": 128,
+          "junk": 128,
+          "fp": 0,
+          "tp": 112
+        }
+      },
+      "calibration_only": true,
+      "one_global_threshold": true,
+      "actual_holdout_fpr_guaranteed": false,
+      "target_empirical_fpr": 0.001
+    },
+    "encoder_sha256": "26b1066ec43aaa77ae0c12d90a1278f9ec7c2d214e69c800b547c4c5a81d773b",
+    "feature_bytes_sha256": "4ad943b8ea3eecb0514d01d3a6b24a3a4168502e57f73c6888cffcf12459f1e2",
+    "float_head_refit": false,
+    "backend": "nativeCPU4/repack0/standardattention",
+    "runtime_sha256": "1feb5d2405a5c03ee8dd8f59e545ce88e51bc692cd2ef943ab6b0ef580234eb9"
+  },
+  "f16": {
+    "panels": {
+      "background": {
+        "n": 768,
+        "normal": 384,
+        "junk": 384,
+        "fp": 20,
+        "tp": 326,
+        "tn": 364,
+        "fn": 58,
+        "accuracy": 0.8984375,
+        "recall": 0.8489583333333334,
+        "fpr": 0.052083333333333336,
+        "threshold": 3.87686446594859,
+        "threshold_domain": "logit",
+        "roc_auc": 0.981167263454861,
+        "pr_auc": 0.9814407830656366
+      },
+      "old-cohort": {
+        "n": 2084,
+        "normal": 452,
+        "junk": 1632,
+        "fp": 10,
+        "tp": 1368,
+        "tn": 442,
+        "fn": 264,
+        "accuracy": 0.8685220729366603,
+        "recall": 0.8382352941176471,
+        "fpr": 0.022123893805309734,
+        "threshold": 3.87686446594859,
+        "threshold_domain": "logit",
+        "roc_auc": 0.9787125303661287,
+        "pr_auc": 0.9941743771370897
+      },
+      "old-language": {
+        "n": 185,
+        "normal": 72,
+        "junk": 113,
+        "fp": 10,
+        "tp": 85,
+        "tn": 62,
+        "fn": 28,
+        "accuracy": 0.7945945945945946,
+        "recall": 0.7522123893805309,
+        "fpr": 0.1388888888888889,
+        "threshold": 3.87686446594859,
+        "threshold_domain": "logit",
+        "roc_auc": 0.862094395280236,
+        "pr_auc": 0.9136819255542792
+      },
+      "background-en": {
+        "n": 256,
+        "normal": 128,
+        "junk": 128,
+        "fp": 4,
+        "tp": 113,
+        "tn": 124,
+        "fn": 15,
+        "accuracy": 0.92578125,
+        "recall": 0.8828125,
+        "fpr": 0.03125,
+        "threshold": 3.87686446594859,
+        "threshold_domain": "logit",
+        "roc_auc": 0.98834228515625,
+        "pr_auc": 0.9864649870932458
+      },
+      "background-zh": {
+        "n": 256,
+        "normal": 128,
+        "junk": 128,
+        "fp": 8,
+        "tp": 108,
+        "tn": 120,
+        "fn": 20,
+        "accuracy": 0.890625,
+        "recall": 0.84375,
+        "fpr": 0.0625,
+        "threshold": 3.87686446594859,
+        "threshold_domain": "logit",
+        "roc_auc": 0.98095703125,
+        "pr_auc": 0.9822325818968567
+      },
+      "background-mixed": {
+        "n": 256,
+        "normal": 128,
+        "junk": 128,
+        "fp": 8,
+        "tp": 105,
+        "tn": 120,
+        "fn": 23,
+        "accuracy": 0.87890625,
+        "recall": 0.8203125,
+        "fpr": 0.0625,
+        "threshold": 3.87686446594859,
+        "threshold_domain": "logit",
+        "roc_auc": 0.970458984375,
+        "pr_auc": 0.9717723262434921
+      }
+    },
+    "calibration": {
+      "center": 0.16307681303199692,
+      "scale": 3.4098776848508225,
+      "log_slope": 2.2196694465184756,
+      "intercept": -0.7552492303406937,
+      "only_calibration": true,
+      "domain": "full finite logits, positive affine Platt scaling"
+    },
+    "point": {
+      "threshold": 3.87686446594859,
+      "domain": "finite continuous score/logit",
+      "panels": {
+        "en": {
+          "normal": 128,
+          "junk": 128,
+          "fp": 0,
+          "tp": 83
+        },
+        "zh": {
+          "normal": 128,
+          "junk": 128,
+          "fp": 0,
+          "tp": 115
+        },
+        "mixed": {
+          "normal": 128,
+          "junk": 128,
+          "fp": 0,
+          "tp": 112
+        }
+      },
+      "calibration_only": true,
+      "one_global_threshold": true,
+      "actual_holdout_fpr_guaranteed": false,
+      "target_empirical_fpr": 0.001
+    },
+    "encoder_sha256": "cac1e5f5b82d7e17b8c6c26ac6ea773943487e4bdd7fa51c396c02731eb54414",
+    "feature_bytes_sha256": "c4f3ba1ea5db250cae077f0283de4fa7d04ad53ce89741fcaf773f25f8cd3e4f",
+    "float_head_refit": false,
+    "backend": "nativeCPU4/repack0/standardattention",
+    "runtime_sha256": "1feb5d2405a5c03ee8dd8f59e545ce88e51bc692cd2ef943ab6b0ef580234eb9"
+  },
+  "q8_0": {
+    "panels": {
+      "background": {
+        "n": 768,
+        "normal": 384,
+        "junk": 384,
+        "fp": 20,
+        "tp": 326,
+        "tn": 364,
+        "fn": 58,
+        "accuracy": 0.8984375,
+        "recall": 0.8489583333333334,
+        "fpr": 0.052083333333333336,
+        "threshold": 3.8803915823120776,
+        "threshold_domain": "logit",
+        "roc_auc": 0.9812350802951388,
+        "pr_auc": 0.981525648601988
+      },
+      "old-cohort": {
+        "n": 2084,
+        "normal": 452,
+        "junk": 1632,
+        "fp": 10,
+        "tp": 1365,
+        "tn": 442,
+        "fn": 267,
+        "accuracy": 0.8670825335892515,
+        "recall": 0.8363970588235294,
+        "fpr": 0.022123893805309734,
+        "threshold": 3.8803915823120776,
+        "threshold_domain": "logit",
+        "roc_auc": 0.9786677945514489,
+        "pr_auc": 0.9941658849734928
+      },
+      "old-language": {
+        "n": 185,
+        "normal": 72,
+        "junk": 113,
+        "fp": 10,
+        "tp": 85,
+        "tn": 62,
+        "fn": 28,
+        "accuracy": 0.7945945945945946,
+        "recall": 0.7522123893805309,
+        "fpr": 0.1388888888888889,
+        "threshold": 3.8803915823120776,
+        "threshold_domain": "logit",
+        "roc_auc": 0.8617256637168141,
+        "pr_auc": 0.9132171702125135
+      },
+      "background-en": {
+        "n": 256,
+        "normal": 128,
+        "junk": 128,
+        "fp": 4,
+        "tp": 113,
+        "tn": 124,
+        "fn": 15,
+        "accuracy": 0.92578125,
+        "recall": 0.8828125,
+        "fpr": 0.03125,
+        "threshold": 3.8803915823120776,
+        "threshold_domain": "logit",
+        "roc_auc": 0.98828125,
+        "pr_auc": 0.9864868752413639
+      },
+      "background-zh": {
+        "n": 256,
+        "normal": 128,
+        "junk": 128,
+        "fp": 8,
+        "tp": 108,
+        "tn": 120,
+        "fn": 20,
+        "accuracy": 0.890625,
+        "recall": 0.84375,
+        "fpr": 0.0625,
+        "threshold": 3.8803915823120776,
+        "threshold_domain": "logit",
+        "roc_auc": 0.98095703125,
+        "pr_auc": 0.9822363114652538
+      },
+      "background-mixed": {
+        "n": 256,
+        "normal": 128,
+        "junk": 128,
+        "fp": 8,
+        "tp": 105,
+        "tn": 120,
+        "fn": 23,
+        "accuracy": 0.87890625,
+        "recall": 0.8203125,
+        "fpr": 0.0625,
+        "threshold": 3.8803915823120776,
+        "threshold_domain": "logit",
+        "roc_auc": 0.97064208984375,
+        "pr_auc": 0.9719461247942405
+      }
+    },
+    "calibration": {
+      "center": 0.1770365884003695,
+      "scale": 3.403854546694807,
+      "log_slope": 2.2099675049820284,
+      "intercept": -0.7492196373707009,
+      "only_calibration": true,
+      "domain": "full finite logits, positive affine Platt scaling"
+    },
+    "point": {
+      "threshold": 3.8803915823120776,
+      "domain": "finite continuous score/logit",
+      "panels": {
+        "en": {
+          "normal": 128,
+          "junk": 128,
+          "fp": 0,
+          "tp": 82
+        },
+        "zh": {
+          "normal": 128,
+          "junk": 128,
+          "fp": 0,
+          "tp": 115
+        },
+        "mixed": {
+          "normal": 128,
+          "junk": 128,
+          "fp": 0,
+          "tp": 112
+        }
+      },
+      "calibration_only": true,
+      "one_global_threshold": true,
+      "actual_holdout_fpr_guaranteed": false,
+      "target_empirical_fpr": 0.001
+    },
+    "encoder_sha256": "7a3524b3cb64b7c8fe6ae32c47c489810ff2723c2b3c9eff51b471f79f0f437a",
+    "feature_bytes_sha256": "51510e2ae5ac37c0d14eb9f1b68cac5f0a097925363d7b1ceb090a1d705ab272",
+    "float_head_refit": false,
+    "backend": "nativeCPU4/repack0/standardattention",
+    "runtime_sha256": "1feb5d2405a5c03ee8dd8f59e545ce88e51bc692cd2ef943ab6b0ef580234eb9"
+  }
+}

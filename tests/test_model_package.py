@@ -27,3 +27,14 @@ def test_cancel_after_an_update_does_not_mutate_the_source_state(tmp_path):
 def test_tampered_payload_is_rejected_before_inference(tmp_path):
  folder=package(tmp_path/'a');(folder/'base.v1.json').write_text('{}')
  with pytest.raises(ValueError,match='payload'):Model(folder)
+
+
+def test_manifest_cannot_bypass_scoring_contract(tmp_path):
+ folder=package(tmp_path/'a');manifest=json.loads((folder/'model.json').read_text())
+ manifest['scoring']['calibration']={'scale':0}
+ manifest['modelFingerprint']=fingerprint(manifest);(folder/'model.json').write_text(json.dumps(manifest))
+ with pytest.raises(ValueError,match='probability policy'):Model(folder)
+
+def test_closed_model_cannot_fall_back_to_another_engine(tmp_path):
+ model=Model(package(tmp_path/'a'));model.close()
+ with pytest.raises(ValueError,match='closed'):model.predict('Fictional notice')

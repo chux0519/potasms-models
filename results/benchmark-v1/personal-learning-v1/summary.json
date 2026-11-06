@@ -1,0 +1,54 @@
+{
+  "lightweight": {
+    "0": {
+      "cross_language_preference_accuracy": 0.5,
+      "protected_normal_fpr_for_junk_preferences": 0.08333333333333333,
+      "background_fp_mean": 1.0,
+      "background_tp_mean": 54.0
+    },
+    "1": {
+      "cross_language_preference_accuracy": 0.5,
+      "protected_normal_fpr_for_junk_preferences": 0.08333333333333333,
+      "background_fp_mean": 1.4375,
+      "background_tp_mean": 56.479166666666664
+    },
+    "5": {
+      "cross_language_preference_accuracy": 0.5,
+      "protected_normal_fpr_for_junk_preferences": 0.09722222222222222,
+      "background_fp_mean": 2.4375,
+      "background_tp_mean": 61.916666666666664
+    },
+    "10": {
+      "cross_language_preference_accuracy": 0.5,
+      "protected_normal_fpr_for_junk_preferences": 0.10416666666666667,
+      "background_fp_mean": 2.6458333333333335,
+      "background_tp_mean": 63.479166666666664
+    }
+  },
+  "multilingual": {
+    "0": {
+      "cross_language_preference_accuracy": 0.5,
+      "protected_normal_fpr_for_junk_preferences": 0.0625,
+      "background_fp_mean": 20.0,
+      "background_tp_mean": 326.0
+    },
+    "1": {
+      "cross_language_preference_accuracy": 0.6354166666666666,
+      "protected_normal_fpr_for_junk_preferences": 0.14583333333333334,
+      "background_fp_mean": 20.9375,
+      "background_tp_mean": 329.8541666666667
+    },
+    "5": {
+      "cross_language_preference_accuracy": 0.75,
+      "protected_normal_fpr_for_junk_preferences": 0.19791666666666666,
+      "background_fp_mean": 21.0625,
+      "background_tp_mean": 329.4166666666667
+    },
+    "10": {
+      "cross_language_preference_accuracy": 0.8333333333333334,
+      "protected_normal_fpr_for_junk_preferences": 0.21180555555555555,
+      "background_fp_mean": 19.520833333333332,
+      "background_tp_mean": 326.0208333333333
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "training_code_reference": "0c1e17b (training/export/package); later benchmark/documentation changes are recorded by release tag",
+  "sms_rows_sha256": "b4d4b041941c34feaa8595f55dd40c9bf54ba5dc7be0230b51c059f720d21291",
+  "semantic_best_epoch": 3,
+  "semantic_checkpoint_sha256": "baddc86b435698052a35a91f18d94f45702685268ba66f5666dc0a40ff56c9ae",
+  "sms_best_epoch": 5,
+  "sms_checkpoint_sha256": "f8ac722cd2f2cfdaa612392877e6ccf2f75bfa61bf343d856507b6ae46bd6ee2",
+  "character_all_three_export_sha_match": true,
+  "initialized_model_tokenizer_tensor_sha_match": true,
+  "student_both_checkpoint_sha_match": true,
+  "pretrained_download": "Pinned, SHA-verified public-only weight cache used after direct network timeout; no previous trained student/character weights reused. fetch-models also supports upstream download.",
+  "environment": {
+    "gpu": "RTX 4060 Ti 16GB",
+    "torch": "2.8.0",
+    "transformers": "4.56.2",
+    "tokenizers": "0.22.2",
+    "scikit-learn": "1.7.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "gguf": "0.17.1"
+  },
+  "native_evaluation": "Linux CPU4/repack0/standard attention; scalar signed-float C ABI head; calibration fit only on calibration split per precision",
+  "not_claimed": [
+    "bit identity across different hardware/library configurations",
+    "independent modern normal-SMS acceptance",
+    "equal measured test false-positive rate",
+    "IdentityLookup cold-start or memory acceptance"
+  ],
+  "private_data": false
+}

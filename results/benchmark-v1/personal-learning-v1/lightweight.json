@@ -1,0 +1,6372 @@
+{
+  "modelFingerprint": "060f742af4f1a570d81c024f9a24a6ca498cecbb3977a5a0e3bb4fa655b9d93b",
+  "streams": 48,
+  "records": [
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 62,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 91,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 91,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 4,
+          "normal": 384,
+          "tp": 75,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 5,
+          "normal": 384,
+          "tp": 81,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 92,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 62,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 90,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 92,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "investment",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 52,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 52,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 52,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 52,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 52,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 57,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 86,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 3,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 7,
+          "normal": 384,
+          "tp": 92,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 57,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 94,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 3,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 7,
+          "normal": 384,
+          "tp": 98,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 57,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 5,
+          "normal": 384,
+          "tp": 81,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 3,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 7,
+          "normal": 384,
+          "tp": 93,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "jobs",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 51,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 51,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 52,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 51,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 52,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 51,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 63,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 5,
+          "normal": 384,
+          "tp": 76,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 86,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 59,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 81,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 85,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 63,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 81,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 2,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 6,
+          "normal": 384,
+          "tp": 86,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "loan",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 0,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 6,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 5,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 3,
+          "normal": 384,
+          "tp": 69,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 5,
+          "normal": 384,
+          "tp": 82,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 7,
+          "normal": 384,
+          "tp": 97,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 4,
+          "normal": 384,
+          "tp": 70,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 9,
+          "normal": 384,
+          "tp": 98,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 8,
+          "normal": 384,
+          "tp": 100,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 3,
+          "normal": 384,
+          "tp": 69,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 7,
+          "normal": 384,
+          "tp": 91,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "en",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 1,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 7,
+          "normal": 384,
+          "tp": 96,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 17,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 42,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 0,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 1,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 55,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 5,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 1,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    },
+    {
+      "topic": "retail",
+      "label": 1,
+      "source_language": "zh",
+      "arrival_seed": 73,
+      "n_labels": 10,
+      "metrics": {
+        "en": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "zh": {
+          "target_correct": 0,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "mixed": {
+          "target_correct": 1,
+          "target_total": 6,
+          "protected_fp": 0,
+          "protected_normal": 4
+        },
+        "background": {
+          "fp": 2,
+          "normal": 384,
+          "tp": 54,
+          "junk": 384
+        }
+      }
+    }
+  ],
+  "seconds": 136.6751919160597,
+  "protocol": "warm replay all confirmed examples,24 epochs per arrival,PA-II C1/margin.05/clip2/norm12; fixed bias; no threshold retuning",
+  "synthetic": true,
+  "independent_market_acceptance": false,
+  "summary": {
+    "0": {
+      "cross_language_preference_accuracy": 0.5,
+      "protected_normal_fpr_for_junk_preferences": 0.08333333333333333,
+      "background_fp_mean": 1.0,
+      "background_tp_mean": 54.0
+    },
+    "1": {
+      "cross_language_preference_accuracy": 0.5,
+      "protected_normal_fpr_for_junk_preferences": 0.08333333333333333,
+      "background_fp_mean": 1.4375,
+      "background_tp_mean": 56.479166666666664
+    },
+    "5": {
+      "cross_language_preference_accuracy": 0.5,
+      "protected_normal_fpr_for_junk_preferences": 0.09722222222222222,
+      "background_fp_mean": 2.4375,
+      "background_tp_mean": 61.916666666666664
+    },
+    "10": {
+      "cross_language_preference_accuracy": 0.5,
+      "protected_normal_fpr_for_junk_preferences": 0.10416666666666667,
+      "background_fp_mean": 2.6458333333333335,
+      "background_tp_mean": 63.479166666666664
+    }
+  }
+}

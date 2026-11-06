@@ -14,19 +14,28 @@ def fingerprint(manifest):
 class Model:
  """Engine selection changes representations, not the consumer's predict API."""
  def __init__(self,directory,encoder_library=None):
-  self.directory=Path(directory).resolve();path=self.directory/'model.json'
+  self.closed=False;self.directory=Path(directory).resolve();path=self.directory/'model.json'
   if path.stat().st_size>65536:raise ValueError('Oversized manifest')
   m=json.loads(path.read_text());self.manifest=m
   if m.get('formatVersion')!=1 or m.get('engine') not in ['character-linear-int8-v1','compact-bert-q8-v1']:raise ValueError('Unsupported model engine or format')
   self.identity=fingerprint(m);self.dim=int(m['dimensions']);self.threshold=float(m['scoring']['thresholdLogit']);self.encoder=None
   if m.get('modelFingerprint',self.identity)!=self.identity:raise ValueError('Model fingerprint mismatch')
   if not math.isfinite(self.threshold) or not 0<self.dim<=1048576:raise ValueError('Invalid model dimensions or threshold')
+  required={'base.v1.json'} if m['engine']=='character-linear-int8-v1' else {'encoder.q8_0.gguf','encoder.q8_0.gguf.pooler.bin','head.f32.bin'}
+  if set(m['files'])!=required or not -120<=self.threshold<=120:raise ValueError('Unsupported model payload or threshold')
+  scoring=m['scoring'];cal=scoring.get('calibration')
+  if m['engine']=='compact-bert-q8-v1':
+   if not isinstance(cal,dict) or not {'center','scale','log_slope','intercept'}.issubset(cal):raise ValueError('Invalid calibration contract')
+   if not all(isinstance(v,(float,int)) and math.isfinite(v) for v in [cal[k] for k in ['center','scale','log_slope','intercept']]) or abs(cal['center'])>10000 or not 0<cal['scale']<=10000 or not -4<=cal['log_slope']<=4 or not -10<=cal['intercept']<=10 or not math.isfinite(scoring['bias']) or abs(scoring['bias'])>1000:raise ValueError('Invalid calibration values')
+  elif cal is not None:raise ValueError('Character package uses its original probability policy')
+
   for name,item in m['files'].items():
    file=self.directory/name
    if name in ['.','..'] or Path(name).name!=name or file.is_symlink() or not file.is_file() or file.stat().st_size!=item['bytes'] or item['bytes']>64*1024**2 or digest(file)!=item['sha256']:raise ValueError('Invalid model payload: '+name)
   if m['engine']=='character-linear-int8-v1':
    self.base=json.loads((self.directory/'base.v1.json').read_text());self.weights=np.frombuffer(base64.b64decode(self.base['quantizedWeights'],validate=True),np.int8).copy()
-   if self.base['featureContract']!=m['featureContract'] or len(self.weights)!=self.dim or self.dim!=self.base['buckets']:raise ValueError('Character feature contract mismatch')
+   if self.base['featureContract']!=m['featureContract'] or m['featureContract'] not in [native.LEGACY_CONTRACT,native.CONTRACT] or len(self.weights)!=self.dim or self.dim!=self.base['buckets']:raise ValueError('Character feature contract mismatch')
+   if not math.isfinite(self.base['bias']) or abs(self.base['bias'])>1000 or not 0<self.base['weightScale']<=100 or not 0<self.base['threshold']<1 or abs(self.threshold-math.log(self.base['threshold']/(1-self.base['threshold'])))>1e-6:raise ValueError('Invalid character scoring values')
   else:
    if self.dim!=128 or m['featureContract']!='compact-bert-bpe32768-pooler128-v1' or encoder_library is None:raise ValueError('Missing supported native encoder')
    self.weights=np.fromfile(self.directory/'head.f32.bin',dtype='<f4')
@@ -36,8 +45,10 @@ class Model:
  def __enter__(self):return self
  def __exit__(self,*args):self.close()
  def close(self):
+  self.closed=True
   if self.encoder:self.encoder.close();self.encoder=None
  def _features(self,text):
+  if self.closed:raise ValueError('Model is closed')
   if len(text.encode())>16384:raise ValueError('SMS exceeds bounds')
   if self.encoder:items=list(enumerate(self.encoder.encode(text)))
   else:items=native.features(text,buckets=self.dim,contract=self.manifest['featureContract'])

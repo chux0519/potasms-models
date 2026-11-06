@@ -9,7 +9,7 @@ def main():
  prep=sub.add_parser('prepare');prep.add_argument('--semantic-archive',type=Path)
  fetch=sub.add_parser('fetch-models');fetch.add_argument('--model-cache',type=Path)
  runtime=sub.add_parser('build-runtime');runtime.add_argument('--runtime-archive',type=Path);runtime.add_argument('--offline',action='store_true')
- sub.add_parser('train-character');sub.add_parser('train-student');sub.add_parser('finalize-student');sub.add_parser('package');sub.add_parser('doctor')
+ sub.add_parser('train-character');sub.add_parser('train-student');sub.add_parser('finalize-student');sub.add_parser('package');sub.add_parser('evaluate-learning');sub.add_parser('doctor')
  infer=sub.add_parser('infer');infer.add_argument('--model',type=Path,required=True);infer.add_argument('--text',required=True);infer.add_argument('--encoder-library',type=Path)
  a=p.parse_args();work=a.work.resolve();os.environ['POTASMS_WORK']=str(work)
  from .bootstrap import build_native,semantic,models
@@ -30,6 +30,9 @@ def main():
  elif a.command=='finalize-student':
   from .student_finalize import finalize
   print(json.dumps(finalize(work),indent=2))
+ elif a.command=='evaluate-learning':
+  from .learning import evaluate
+  print(json.dumps(evaluate(work),indent=2))
  elif a.command=='package':
   from .package import character,student
   print(character(work));print(student(work))
